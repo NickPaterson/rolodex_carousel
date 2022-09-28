@@ -1,5 +1,5 @@
 const getID = () => {
-    return "MjGIEpHZl_JsikWznL0p5OlO3kewJbymZKizWmNPSBI"
+    return "YOUR_ACCESS_KEY"
 }
 
 export default getID
