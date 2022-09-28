@@ -9,7 +9,7 @@ const carousel = document.querySelector(".carousel")
 
 // for each item in unsplashData, create a card
 // and add it to the carousel
-const unsplashData = await getImages(getID(), 100)
+const unsplashData = await getImages(YOUR_ACCESS_KEY, 100)
 console.log(unsplashData)
 unsplashData.forEach((image, index) => {
     const card = document.createElement("div")
